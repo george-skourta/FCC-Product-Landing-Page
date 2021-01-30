@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>FCC Product Landing Page</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/css/main.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <!-- Navbar -->
+        <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img id="header-img" width="40" src="/media/logo.svg" />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#intro">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">How it Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+              <div class="form-inline my-2 my-lg-0">
+                <button class="button">Get Started</button>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <!-- Section: Intro -->
+        <section id="intro">
+            <div class="hero">
+                <h1 id="title" class="hero__title">Get access to a vast library of <b>pc games</b></h1>
+                <p id="description" class="hero__desc">eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                <button class="button secondary">Subscribe</button>
+                <img src="/media/bg-image.png" alt="" class="img-fluid" />
+            </div>            
+        </section>
+        <!-- Section: How It Works -->
+        <section id="how-it-works" style="margin-top: 50px;">
+            <h2>How It Works</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card text-center">
+                        <img src="/media/magnifying-glass.svg" alt="" class="img-fluid" width="50">
+                        <div class="card__title">Find game</div>
+                        <div class="card__desc">eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-center">
+                        <img src="/media/books.svg" alt="" class="img-fluid" width="50">
+                        <div class="card__title">Add Game</div>
+                        <div class="card__desc">eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-center">
+                        <img src="/media/multimedia.svg" alt="" class="img-fluid" width="50">
+                        <div class="card__title">Play Game</div>
+                        <div class="card__desc">eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-5">
+                    <h2>New Games Every Week</h2>
+                    <p>
+                        Eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... 
+                    </p>
+                    <p>
+                        Eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... 
+                    </p>
+                    <button class="button secondary" style="width: 200px;">View All Games</button>
+                </div>
+                <div class="col-7" style="margin-top: 30px;">
+                    <iframe id="video" width="100%" height="500" src="https://www.youtube.com/embed/WagpCenxnMI?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- Section: Pricing -->
+        <section id="pricing" style="margin-top: 50px;">
+            <h2>Pricing</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="price-card">
+                        <div class="price-card__title">Basic Plan</div>
+                        <div class="price-card__price"><span class="price"><span class="euro-symbol">&euro;</span>10</span> Month</div>
+                        <ul class="price-card__list">
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                        </ul>
+                        <button class="button secondary">Select</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="price-card">
+                        <div class="price-card__title">Deluxe Plan</div>
+                        <div class="price-card__price"><span class="price"><span class="euro-symbol">&euro;</span>15</span> Month</div>
+                        <ul class="price-card__list">
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                        </ul>
+                        <button class="button secondary">Select</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="price-card">
+                        <div class="price-card__title">Super Plan</div>
+                        <div class="price-card__price"><span class="price"><span class="euro-symbol">&euro;</span>20</span> Month</div>
+                        <ul class="price-card__list">
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                            <li class="price-card__list-item"><span><i class="material-icons">verified</i>Lorem Ispum</span></li>
+                        </ul>
+                        <button class="button secondary">Select</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section: Contact -->
+        <section id="contact" style="margin-top: 50px;">
+            <div class="contact-card">
+                <div class="contact-card__content">
+                    <div class="contact-card__title">Subscribe to our <span>newsletter</span></div>
+                    <div class="contact-card__desc">To be updated with all the latest news & games.</div>
+                </div>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" class="contact-card__form">
+                    <input class="input" type="email" name="email" id="email" placeholder="Please enter email">
+                    <input id="submit" class="button secondary" value="Subscribe" type="submit">
+                </form>
+                <div class="contact-card__media">
+                    <img src="/media/newsletter.svg" alt="" class="img-fluid" width="150">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <span>Made by George Shkurta. Part of the <a href="https://www.freecodecamp.org/learn/">FreeCodeCamp's Responsive Web Design Challenge's.</a></span>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
